@@ -1,0 +1,90 @@
+body {
+    background-color: #FF6347;
+}
+.container{
+
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 800px;
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+    
+
+}
+h1{
+    font-weight: 100;
+    font-size: 75px;
+    font-family: Courier New, Courier, monospace;
+    color: white;
+    line-height: 0.2em;
+    font-size-adjust: inherit;
+  
+
+}
+h2{
+    font-family: Courier New, Courier, monospace;
+    color: white;
+    
+}
+
+hr {
+    border: dashed 0.3px white;
+}
+.button {
+    background-color: #FF6347; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+#RandomWord{
+    font-family: Courier New, Courier, monospace;
+    font-size: 30px;
+   
+}
+.button1 {
+    background-color: #FF6347; 
+    color: white; 
+    border: 2px solid white;
+}
+.button1:hover {
+    background-color: white;
+    color: #FF6347;
+}
+
+a {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+#rightanswer {
+    font-family: Courier New, Courier, monospace;
+    font-size: 20px;
+}
+#yourletters {
+    font-family: Courier New, Courier, monospace;
+    font-size: 20px;
+}
+.icon {
+    background-color: white;
+    color: #FF6347;
+    padding: 5px 10px;
+ 
+}
+#winmessage {
+    font-family: Courier New, Courier, monospace;
+    font-size: 40px;
+   
+    
+
+}

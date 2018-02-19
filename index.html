@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Hangman</title>
+  <link type="text/css" rel="stylesheet" href="assets/style.css" />
+  <script src="assets/script.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+ <div class="container">
+  <h1>HANGMAN</h1>
+  <h2>[ EXOTIC ANIMALS ]</h2>
+  
+  <hr>
+  <p> Click the button to get a new word to guess. Make sure that the letters are lower case! <strong>Good luck!</strong></p>
+
+  <button onclick="play()" class="button button1" id="pick_word ">Get a word!</button>
+  
+  <P id="RandomWord"></p>
+  <p><span id="rightanswer"> </span></p>
+  <p><span id="winmessage"> </span></p>
+  
+    <p id="yourletters"> Your Letters:<br/> <span id="LettersChosen"></span></p><br/> 
+    <div class="scores">
+    <p>Tries left: <span class="icon" id="TriesLeft">10</span>
+        Wins: <span class="icon" id="WinCount">0</span>
+  
+  loses: <span class="icon" id="LoseCount">0</span></p></div>
+ 
+  
+</div>
+
+
+</body>
+
+</html>
